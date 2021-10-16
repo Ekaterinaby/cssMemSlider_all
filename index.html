@@ -5,10 +5,48 @@
     <meta charset="utf-8">
     <title>cssMemSlider</title>
     <meta name="description" content="cssMemSlider ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>    
+<body>
+
+    <div class="outer">
+        <div class="slider" data-transition="fade">
+            <input type="radio" name="changer" id="changer1" class="slide-changer" checked="checked" />
+            <div class="slide">
+                <img src="assets/slide1.jpg" alt="Keep going" />
+                <label for="changer3" class="arrows  previous">3</label>
+                <label for="changer2" class="arrows  next">2</label>
+                <div class="desc"> Keep going...I beieve in you</div>
+            </div>
+            <input type="radio" name="changer" id="changer2" class="slide-changer" />
+            <div class="slide">
+                <img src="assets/slide2.jpg" alt="To those who" />
+                <label for="changer1" class="arrows previous">1</label>
+                <label for="changer3" class="arrows next">3</label>
+                <div class="desc"> To those who are having a bad day</div>
+            </div>
+
+            <input type="radio" name="changer" id="changer3" class="slide-changer" />
+            <div class="slide">
+                <img src="assets/slide3.jpg" alt="be happy" />
+                <label for="changer2" class="arrows previous">2</label>
+                <label for="changer4" class="arrows next">4</label>
+                <div class="desc"> Don't worry, be happy!</div>
+            </div>
+
+            <input type="radio" name="changer" id="changer4" class="slide-changer" />
+            <div class="slide">
+                <img src="assets/slide4.jpg" alt="have said" />
+                <label for="changer3" class="arrows previous">3</label>
+                <label for="changer1" class="arrows next">1</label>
+                <div class="desc">I shouldn't have said</div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 </html>
